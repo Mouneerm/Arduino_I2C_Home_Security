@@ -1,6 +1,42 @@
 # Arduino_I2C_Home_Security
+Date: June 2020
 
-### Circuit
+### Circuit and design
+
+In this smart home security system, we’ve combined the power of Arduino microcontrollers to create a robust and scalable solution. Let’s break down the key components:
+
+##### Master and Slave Arduinos:
+Our system comprises two Arduinos: a master and multiple slave nodes.
+The master Arduino acts as the central control unit, orchestrating communication and managing the entire network.
+Each room has its dedicated slave Arduino, allowing for seamless expansion as you add more rooms.
+##### Communication via I2C:
+The master and slave Arduinos communicate using the I2C (Inter-Integrated Circuit) protocol.
+I2C ensures efficient data exchange, enabling real-time monitoring and control across all connected nodes.
+Sensors for Comprehensive Security:
+##### Magnetic Contact Switches:
+These switches are strategically placed on doors and windows.
+When a door or window is opened (or breached), the magnetic contact switch detects the change and triggers an alert.
+In the circuit, the Magnetic Contact switches are replaced with normal switch for simulation purposes.
+##### Passive Infrared (PIR) Sensor:
+The PIR sensor detects human presence by sensing body heat and motion.
+If an intruder enters the room, the PIR sensor activates the alarm system.
+##### Buzzer Alarm:
+The buzzer emits a loud sound to alert occupants and deter intruders.
+It can be customized with different tones or patterns based on the severity of the threat.
+##### User-Friendly Interface:
+Keypad and LCD Screen:
+Users interact with the system through a keypad and an LCD screen.
+The keypad allows users to input commands, set or change the alarm password, switch off the buzzer and toggle the system on/off.
+The LCD screen provides visual feedback, displaying system status, alerts, and password prompts.
+##### Scalability and Flexibility:
+As your smart home expands, simply add more slave Arduinos—one for each room.
+The modular design ensures that each room’s security is independently managed while remaining part of the larger network.
+##### Password Protection:
+The password system adds an extra layer of security.
+Users can set a unique password to control system access.
+Use the keypad and LCD screen to manage passwords and enable/disable the alarm.
+
+
 ![image](https://github.com/Mouneerm/Arduino_I2C_Home_Security/assets/45911394/1a00ec90-4ae6-4c89-81cd-99cf02077ee6)
 
 ### User Manual:
