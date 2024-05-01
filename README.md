@@ -3,7 +3,8 @@ Date: June 2020
 
 ### Circuit and design
 
-In this smart home security system, we’ve combined the power of Arduino microcontrollers to create a robust and scalable solution. Let’s break down the key components:
+In this project, we’ve designed smart home security system based on Arduino microcontrollers interconnected via I2C to create a robust and scalable solution. 
+Please find the key components listed below:
 
 ##### Master and Slave Arduinos:
 Our system comprises two Arduinos: a master and multiple slave nodes.
